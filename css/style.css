@@ -21,9 +21,8 @@ body {
   color:#000;
   border-color: #000;
 }
-
-
-  .subtitulo {
+ 
+.subtitulo {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
@@ -32,16 +31,16 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 40px;
-  }
-  .subtitulo:after {
+}
+.subtitulo:after {
       content: "";
       display: block;
       width: 60px;
       height: 3px;
       background: #000;
       margin: 8px auto;
-  }
-  .subtitulo-interno {
+}
+.subtitulo-interno {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
@@ -50,7 +49,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-  .subtitulo-interno:after {
+.subtitulo-interno:after {
       content: "";
       display: block;
       width: 60px;
@@ -67,6 +66,7 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 
 /*Header*/
