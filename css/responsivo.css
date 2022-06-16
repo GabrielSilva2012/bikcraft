@@ -145,5 +145,11 @@
   .orcamento_dados ul {
     padding-right: 0px;
   }
+
+ /*Formulario Contato*/
+ .contato-form {
+	padding-right: 0px;
+  margin-bottom: 40px;
+}
   
 }/*Acaba aqui a parte de Smartphone*/
