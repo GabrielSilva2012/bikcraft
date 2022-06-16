@@ -35,7 +35,9 @@
   .header_menu{
   text-align: center;
   }
-  
+  .header_menu ul li a.menu_ativo{
+    border-color: #fff;
+  }
   .header_menu ul li {
   margin: 5px;
   }
@@ -60,9 +62,12 @@
   }
   .introducao h1 {
     font-size: 36px;
- 
   }
 
+  /*Introdução Interna*/
+  .introducao-interna {
+    margin-top: 0px;
+  }
   /*Call*/
   .call{
   padding-top: 10px;
@@ -71,5 +76,17 @@
   /*Qualidade Home*/
    .qualidade:after {
     display: none;
+  }
+
+  /*Sobre*/
+  .missao_sobre p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+   
+  .missao_sobre ul li{
+    font-size: 14px;
+    line-height: 25px;
   }
 }
